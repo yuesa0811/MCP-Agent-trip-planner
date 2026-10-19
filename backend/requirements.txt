@@ -1,0 +1,27 @@
+# 已验证的 LangChain / MCP 组合，升级时一起验证工具调用与结构化输出
+langchain==1.4.2
+langchain-core==1.6.5
+langgraph==1.2.12
+langchain-openai==1.0.0
+langchain-mcp-adapters==0.3.2
+openai==1.109.1
+
+# FastAPI 与数据校验
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# SQLite ORM 与用户名/密码认证
+SQLAlchemy==2.0.54
+pwdlib[argon2]==0.3.1
+PyJWT==2.15.1
+
+# HTTP 客户端（图片服务直接使用 requests）
+httpx>=0.27.0
+requests==2.34.2
+python-dotenv>=1.0.0
+
+# MCP 客户端；amap-mcp-server 由 uvx 在独立环境启动
+mcp==1.30.0
+uv>=0.8.0

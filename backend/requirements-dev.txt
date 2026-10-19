@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# 普通测试不需要外部 API 密钥
+pytest==9.1.1
+pytest-asyncio==1.4.0

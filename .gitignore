@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+dist/
+*.log
+backend/data/*.db*
